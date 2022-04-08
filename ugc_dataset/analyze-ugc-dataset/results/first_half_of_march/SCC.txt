@@ -1,0 +1,14 @@
+             psnr   vmaf
+Mask=False  0.941  0.950
+Mask=True   0.944  0.951
+
+Metric=psnr:
+           enc_res_x265_mv_offline_2k_blue_hair_28.mp4 enc_res_x265_mv_offline_2k_boys_30.mp4 enc_res_x265_mv_offline_2k_game_streamer_33.mp4 enc_res_x265_mv_offline_2k_happy_dog_31.mp4 enc_res_x265_mv_offline_2k_light_show_24.mp4 enc_res_x265_mv_offline_2k_mountain_dog_32.mp4 enc_res_x265_mv_offline_2k_pool_underwater_36.mp4 enc_res_x265_mv_offline_2k_pumba_29.mp4 enc_res_x265_mv_offline_2k_tourist_26.mp4
+Mask=False                                       0.919                                  0.985                                           0.850                                       0.947                                        0.946                                          0.922                                             0.968                                   0.975                                     0.956
+Mask=True                                        0.919                                  0.985                                           0.891                                       0.947                                        0.949                                          0.914                                             0.954                                   0.975                                     0.958
+
+Metric=vmaf:
+           enc_res_x265_mv_offline_2k_blue_hair_28.mp4 enc_res_x265_mv_offline_2k_boys_30.mp4 enc_res_x265_mv_offline_2k_game_streamer_33.mp4 enc_res_x265_mv_offline_2k_happy_dog_31.mp4 enc_res_x265_mv_offline_2k_light_show_24.mp4 enc_res_x265_mv_offline_2k_mountain_dog_32.mp4 enc_res_x265_mv_offline_2k_pool_underwater_36.mp4 enc_res_x265_mv_offline_2k_pumba_29.mp4 enc_res_x265_mv_offline_2k_tourist_26.mp4
+Mask=False                                       0.892                                  0.968                                           0.962                                       0.947                                        0.966                                          0.934                                             0.950                                   0.985                                     0.946
+Mask=True                                        0.892                                  0.968                                           0.962                                       0.947                                        0.966                                          0.934                                             0.950                                   0.985                                     0.953
+

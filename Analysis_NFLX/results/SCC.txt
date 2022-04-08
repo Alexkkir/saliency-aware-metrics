@@ -1,0 +1,19 @@
+             psnr   ssim   vmaf
+Mask=False  1.000  0.994  1.000
+Mask=True   1.000  1.000  1.000
+
+Metric=psnr:
+           BigBuckBunny_25fps.yuv BirdsInCage_30fps.yuv CrowdRun_25fps.yuv ElFuente1_30fps.yuv ElFuente2_30fps.yuv FoxBird_25fps.yuv OldTownCross_25fps.yuv Seeking_25fps.yuv Tennis_24fps.yuv
+Mask=False                  1.000                 1.000              1.000               1.000               1.000             1.000                  1.000             1.000            1.000
+Mask=True                   1.000                 1.000              1.000               1.000               1.000             1.000                  1.000             1.000            1.000
+
+Metric=ssim:
+           BigBuckBunny_25fps.yuv BirdsInCage_30fps.yuv CrowdRun_25fps.yuv ElFuente1_30fps.yuv ElFuente2_30fps.yuv FoxBird_25fps.yuv OldTownCross_25fps.yuv Seeking_25fps.yuv Tennis_24fps.yuv
+Mask=False                  1.000                 1.000              1.000               1.000               1.000             1.000                  1.000             1.000            0.943
+Mask=True                   1.000                 1.000              1.000               1.000               1.000             1.000                  1.000             1.000            1.000
+
+Metric=vmaf:
+           BigBuckBunny_25fps.yuv BirdsInCage_30fps.yuv CrowdRun_25fps.yuv ElFuente1_30fps.yuv ElFuente2_30fps.yuv FoxBird_25fps.yuv OldTownCross_25fps.yuv Seeking_25fps.yuv Tennis_24fps.yuv
+Mask=False                  1.000                 1.000              1.000               1.000               1.000             1.000                  1.000             1.000            1.000
+Mask=True                   1.000                 1.000              1.000               1.000               1.000             1.000                  1.000             1.000            1.000
+

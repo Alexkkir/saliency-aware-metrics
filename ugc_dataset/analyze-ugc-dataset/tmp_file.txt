@@ -1,0 +1,3 @@
+NIQE mean:     10.846
+mean:          10.913
+harmonic mean: 10.847

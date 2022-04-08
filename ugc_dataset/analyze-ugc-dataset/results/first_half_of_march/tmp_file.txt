@@ -1,0 +1,2 @@
+mean:           0.955
+harmonic mean: 0.9549

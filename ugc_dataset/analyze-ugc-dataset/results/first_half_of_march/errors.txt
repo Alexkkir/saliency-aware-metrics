@@ -1,0 +1,4 @@
+ERROR:  winter_riding_x265, psnr, False
+ERROR:  winter_riding_x265, psnr, True
+ERROR:  winter_riding_x265, vmaf, False
+ERROR:  winter_riding_x265, vmaf, True

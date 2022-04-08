@@ -1,0 +1,1 @@
+ffmpeg -s 768x432 -i pa2_25fps.yuv -ss 00:00:00 -c:v libx264 -s:v 768x432 -preset slow -t 00:08:20 output.mp4 # yuv -> mp4

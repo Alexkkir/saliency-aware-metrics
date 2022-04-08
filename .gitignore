@@ -1,0 +1,17 @@
+.idea/
+__pycache__/
+#ugc_dataset/references/
+#ugc_dataset/sequences/
+#netflix_dataset
+server/
+yandex-disk/
+TASED-Net/
+.git/
+2.txt
+vqmt
+vqmt-ok.deb
+*.mp4
+*.jpg
+*.yuv
+*.png
+*.rar

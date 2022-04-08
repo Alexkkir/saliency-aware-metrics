@@ -1,0 +1,11 @@
+# sequence of images -> video
+ffmpeg -start_number 1 -framerate 25  -i from_pil/%04d.jpg -vcodec mpeg4 -b:v 100M pa2_25fps_3.mp4
+
+# png -> mp4
+ffmpeg -i pa1_map/%04d.png -b 10M pa1_map_q0.mp4
+
+# mp4 -> png
+ffmpeg -i pa1_25fps.mp4 -q 0 pa1/%04d.jpg
+
+# yuv -> png
+ffmpeg -f rawvideo -vcodec rawvideo -s 1920x1080 -r 25 -pix_fmt yuv420p -i {path2file} -q 0 {res_dir}/%04d.png
